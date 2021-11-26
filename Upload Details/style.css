@@ -16,7 +16,7 @@
 }
 .show-details {
 	height: 60%;
-	width: 50%;
+	width: 25%;
 	overflow: auto;
 }
 
@@ -32,4 +32,20 @@ button {
 	width: 9rem;
 	font-size: 1rem;
 	margin: 6rem;
+	outline: none;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.each-details {
+	padding-top: 5px;
+	width: 100%;
+	background-color: gray;
+	height: 2rem;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.highlight {
+	padding: 3px 10px;
+	background-color: green;
+	color: white;
 }
